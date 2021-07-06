@@ -1,3 +1,0 @@
-pytube
-pyfiglet
-termcolor
