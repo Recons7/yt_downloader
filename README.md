@@ -24,5 +24,5 @@ To install on termux.
 
 
 
-
-  ===== Thanks for installing ======
+ 
+     ===== Thanks for installing ======
