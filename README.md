@@ -18,7 +18,7 @@ To install on termux.
 
 5) pip install -r requirements.txt
 
-6) python3 yt.py
+6) python3 yt_downloader.py
 
 
 
