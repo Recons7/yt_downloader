@@ -1,3 +1,4 @@
-pytube
+pafy
 pyfiglet
 termcolor
+youtube_dl
