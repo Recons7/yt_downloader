@@ -25,7 +25,11 @@ def song_dload():
 			
 		bestaudio = video.getbestaudio() 
 		bestaudio.download() 
-		file_rename = os.rename(f'{video.title}.webm', f'{video.title}.mp3')
+		
+		if 'm4a' in str(bestaudio):
+			file_rename = os.rename(f'{video.title}.m4a', f'{video.title}.mp3')
+		else:
+			file_rename = os.rename(f'{video.title}.webm', f'{video.title}.mp3')
 		
 		for downloaded in done:
 			sys.stdout.write(downloaded)
