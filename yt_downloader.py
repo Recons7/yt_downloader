@@ -28,6 +28,8 @@ def song_dload():
 		
 		if 'm4a' in str(bestaudio):
 			file_rename = os.rename(f'{video.title}.m4a', f'{video.title}.mp3')
+		elif 'webm.part' in str(bestaudio):
+			file_rename = os.rename(f'{video.title}.webm.part', f'{video.title}.mp3')
 		else:
 			file_rename = os.rename(f'{video.title}.webm', f'{video.title}.mp3')
 		
