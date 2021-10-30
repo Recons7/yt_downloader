@@ -10,6 +10,8 @@ To install on termux.
 
 1) pkg install python && pkg install python2
 
+2) pkg install ffmpeg 
+
 2) pkg install git
 
 3) git clone https://github.com/Recons7/yt_downloader.git
