@@ -1,4 +1,5 @@
 pafy
+ffmpeg
 pyfiglet
 termcolor
 youtube_dl
